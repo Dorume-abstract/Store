@@ -6,5 +6,6 @@
 
         Book[] GetAllByIsbn(string isbn);
 
+        Book GetById(int id);
     }
 }
