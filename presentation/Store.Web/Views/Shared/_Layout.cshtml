@@ -30,8 +30,7 @@
                     }
                     else
                     {
-                        int count = cart.Items.Select(book => book.Value).Sum();
-                        @:Товаров @count на сумму @cart.Amount
+                        @:Товаров @cart.Items.Count на сумму @cart.Amount
                     }
                 }
             </span>
